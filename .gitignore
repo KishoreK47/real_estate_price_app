@@ -1,25 +1,22 @@
+# Include only our model file
+!src/xgb_pipeline.joblib
 
+# Ignore large models
+*.pkl
+*.joblib
 
+# Ignore data folders
 Data/
 Models/
-mlruns/
-Notebooks/mlruns/
-*.pkl
-*.csv
-*.joblib
-
-# But allow our small model file
-!src/xgb_pipeline.joblib
-Models/
-*.pkl
-
-*.joblib
-*.pkl
 models/
 File_Models/
+mlruns/
 Notebooks/mlruns/
-__pycache__/
-*.pkl
-*.joblib
-Models/
-File_Models/
+
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Ignore CSV except allowed one
+*.csv
+!india_housing_prices.csv
+
