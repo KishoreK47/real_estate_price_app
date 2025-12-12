@@ -20,7 +20,7 @@ st.set_page_config(
 # CACHED LOADING
 # ----------------------------------------
 @st.cache_resource
-def load_pipeline(path="xgb_pipeline.joblib"):
+def load_pipeline(path="src/xgb_pipeline.joblib"):
     """Load any sklearn Pipeline (RF or XGB)."""
     return joblib.load(path)
 
@@ -37,7 +37,7 @@ def load_sample_df(path= r"C:\Users\kisho\Downloads\Real Estate Investment Advis
 # LOAD MODEL + SAMPLE DATA
 # ----------------------------------------
 st.sidebar.title("⚙️ Model Controls")
-pipeline = load_pipeline("xgb_pipeline.joblib")      # change to rf_pipeline.joblib if needed
+pipeline = load_pipeline("src/xgb_pipeline.joblib")      # change to rf_pipeline.joblib if needed
 sample_df = load_sample_df(r"C:\Users\kisho\Downloads\Real Estate Investment Advisor Predicting Property Profitability & Future Value- Project\Data\Raw\india_housing_prices.csv")
 
 st.title("🏠 Real Estate Price Predictor")
