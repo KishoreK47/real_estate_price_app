@@ -8,3 +8,5 @@ Notebooks/mlruns/
 
 # But allow our small model file
 !src/xgb_pipeline.joblib
+Models/
+*.pkl
