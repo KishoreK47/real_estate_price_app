@@ -19,3 +19,7 @@ models/
 File_Models/
 Notebooks/mlruns/
 __pycache__/
+*.pkl
+*.joblib
+Models/
+File_Models/
