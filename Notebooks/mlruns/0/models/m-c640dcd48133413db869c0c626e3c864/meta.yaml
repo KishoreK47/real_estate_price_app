@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/kisho/Downloads/Real%20Estate%20Investment%20Advisor%20Predicting%20Property%20Profitability%20%26%20Future%20Value-%20Project/Notebooks/mlruns/0/models/m-c640dcd48133413db869c0c626e3c864/artifacts
+creation_timestamp: 1765442917178
+experiment_id: '0'
+last_updated_timestamp: 1765442922651
+model_id: m-c640dcd48133413db869c0c626e3c864
+model_type: null
+name: xgb_regression_model
+source_run_id: 4b3587cd67814f8eacc7e593c1c76088
+status: 2
+status_message: null

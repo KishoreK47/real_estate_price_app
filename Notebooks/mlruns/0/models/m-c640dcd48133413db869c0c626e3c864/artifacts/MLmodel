@@ -1,0 +1,22 @@
+artifact_path: file:///C:/Users/kisho/Downloads/Real%20Estate%20Investment%20Advisor%20Predicting%20Property%20Profitability%20%26%20Future%20Value-%20Project/Notebooks/mlruns/0/models/m-c640dcd48133413db869c0c626e3c864/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.5
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+mlflow_version: 3.6.0
+model_id: m-c640dcd48133413db869c0c626e3c864
+model_size_bytes: 27191762
+model_uuid: m-c640dcd48133413db869c0c626e3c864
+prompts: null
+run_id: 4b3587cd67814f8eacc7e593c1c76088
+utc_time_created: '2025-12-11 08:48:37.445936'

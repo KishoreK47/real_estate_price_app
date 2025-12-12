@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/kisho/Downloads/Real%20Estate%20Investment%20Advisor%20Predicting%20Property%20Profitability%20%26%20Future%20Value-%20Project/Notebooks/mlruns/0/4b3587cd67814f8eacc7e593c1c76088/artifacts
+end_time: 1765443022785
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4b3587cd67814f8eacc7e593c1c76088
+run_name: XGBoost_Regression
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1765442847322
+status: 3
+tags: []
+user_id: kisho
