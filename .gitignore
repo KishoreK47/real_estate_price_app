@@ -1,3 +1,5 @@
+
+
 Data/
 Models/
 mlruns/
@@ -10,3 +12,10 @@ Notebooks/mlruns/
 !src/xgb_pipeline.joblib
 Models/
 *.pkl
+
+*.joblib
+*.pkl
+models/
+File_Models/
+Notebooks/mlruns/
+__pycache__/
