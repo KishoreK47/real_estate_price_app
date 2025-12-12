@@ -1,0 +1,10 @@
+Data/
+Models/
+mlruns/
+Notebooks/mlruns/
+*.pkl
+*.csv
+*.joblib
+
+# But allow our small model file
+!src/xgb_pipeline.joblib
